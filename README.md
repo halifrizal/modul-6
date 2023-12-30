@@ -40,7 +40,7 @@ Augmentasi mencakup zoom range sebesar 20%, rotasi hingga 20 derajat, dan flip h
 4. Normalisasi Citra:
 Merescale nilai pixel citra agar berada dalam rentang 0 hingga 1.
 
-Link Dataset dapat dilihat pada [link berikut](https://drive.google.com/file/d/1X9jFokn9AXMMVTmlBQ7XZpBsLKVFnp-d/view?usp=drive_link) 
+> **NOTE!** Dataset dapat dilihat pada [link berikut](https://drive.google.com/file/d/1X9jFokn9AXMMVTmlBQ7XZpBsLKVFnp-d/view?usp=drive_link) 
 
 
 
