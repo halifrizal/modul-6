@@ -94,6 +94,16 @@ Kekurangan:
 ![image](assets/confusion.png)
 
 
+## Deploy Website
+> **NOTE!** Model ini telah diimplementasikan sebagai layanan web menggunakan Flask. Pengguna dapat mengaksesnya melalui antarmuka web sederhana untuk menguji model dengan citra dari input pengguna.
+
+#### Antarmuka Website
+![image](assets/website1.png)
+
+#### Testing
+![image](assets/website2.png)
+
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
