@@ -25,7 +25,7 @@ kepada asisten yang telah ditentukan.
 
 
 ## Dataset
-#### Pre-Processing dataset
+### Pre-Processing dataset
 Pada tahap ini meliputi tahap-tahap berikut:
 1. Ekstraksi Dataset:
 Mengunduh dan mengekstrak dataset RPS dalam format zip.
@@ -44,7 +44,7 @@ Merescale nilai pixel citra agar berada dalam rentang 0 hingga 1.
 
 
 ## Model Machine Learning
-#### Deskripsi Arsitektur Model MobileNetv2
+### Deskripsi Arsitektur Model MobileNetv2
 MobileNetV2 adalah arsitektur neural network yang dirancang khusus untuk aplikasi mobile dan perangkat dengan sumber daya terbatas. Berikut adalah komponen-komponen utama dari model ini:
 
 ##### MobileNetV2 Base Model
@@ -65,7 +65,7 @@ MobileNetV2 adalah arsitektur neural network yang dirancang khusus untuk aplikas
 ##### Softmax Activation
 1. Menggunakan fungsi aktivasi softmax pada lapisan output untuk menghasilkan distribusi probabilitas dari tiga kelas (kertas, batu, gunting).
 
-#### Keuntungan dan Kekurangan Arsitektur Model
+### Keuntungan dan Kekurangan Arsitektur Model
 Keuntungan:
 1. Efisiensi dan Keringanan
    MobileNetV2 dirancang khusus untuk aplikasi mobile dan perangkat dengan sumber daya terbatas, membuatnya cocok untuk implementasi di lingkungan terbatas.
@@ -83,7 +83,7 @@ Kekurangan:
 3. Keterbatasan untuk Tugas Khusus
    MobileNetV2 dirancang untuk tugas klasifikasi gambar umum, sehingga mungkin tidak seoptimal model yang dikhususkan untuk tugas pengenalan tangan RPS.
 
-#### Evaluasi Model
+### Evaluasi Model
 Plotting : 
 ![image](assets/plotting.png)
 
