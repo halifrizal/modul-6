@@ -84,10 +84,13 @@ Kekurangan:
    MobileNetV2 dirancang untuk tugas klasifikasi gambar umum, sehingga mungkin tidak seoptimal model yang dikhususkan untuk tugas pengenalan tangan RPS.
 
 ### Evaluasi Model
-Plotting : 
+#### Plotting : 
+
 ![image](assets/plotting.png)
 
-Confusion Matrix :
+
+#### Confusion Matrix :
+
 ![image](assets/confusion.png)
 
 
