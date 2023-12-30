@@ -1,18 +1,29 @@
 # MODUL 6 - Web Deployment
 
-## Overview
+## Overview Project
 
-Project ini adalah untuk tugas pratikum mata kuliah Machine Learning Fakultas Teknik Informatika UMM
-**_Link Dataset yang digunakan :_** [rps dataset]().
+> **NOTE!** Project ini bertujuan untuk mengembangkan model machine learning untuk mengenali citra tangan dalam permainan batu-gunting-kertas (Rock-Paper-Scissors/RPS). Model ini dapat digunakan untuk membuat aplikasi atau game yang memanfaatkan pengenalan gestur tangan.
 
-Preprocessing yang digunakan : Konversi mode warna, Pengubahan ukuran, Konversi ke array, Ekspansi dimensi, Normalisasi
+### Ketentuan Project
+1. Peserta praktikum diminta untuk melakukan pengembangan AI Web Deployment berdasarkan
+modul sebelumnya. Jenis data yang dapat dipilih meliputi:
+a. Data Citra
+b. Data Tabular
+c. Data Teks
+2. Dataset yang digunakan merupakan dataset yang telah diaplikasikan pada modul-modul sebelumnya.
+3. Praktikan diminta untuk memperkaya pengembangan AI Web sebelumnya yang telah di-deploy
+dengan kreativitas individu masing-masing. Upaya kreatifitas dapat mencakup peningkatan estetika
+tampilan, detail informasi AI Web, peningkatan akurasi model, atau peningkatan aspek lainnya
+4. Lakukan deploy model yang telah disimpan ke dalam bentuk web basis. Pilihan library seperti Flask,
+Tensorflow-js, atau teknologi lainnya dapat disesuaikan dengan tingkat kemampuan peserta.
+5. Setelah model berhasil di-deploy dalam bentuk web dan berjalan dengan baik, peserta diminta untuk
+membuat repository GitHub. Selanjutnya, lakukan commit terhadap keseluruhan project, dan
+buatlah README.md yang memuat laporan hasil pengembangan proyek. Contoh README.md yang
+baik dapat dilihat pada [link berikut](https://github.com/muhfadh/Tugas_Praktikum_ML_A_297-
+233) 
+6. Setelah seluruh tahapan selesai, peserta diminta untuk mengumpulkan link GitHub beserta demo
+kepada asisten yang telah ditentukan.
 
-Model yang digunakan : Deep Learning Method Convolutional Neural Network dengan arsitektur seperti gambar di bawah ini
-![image](assets/cnn.png)
-
-Selain itu, menambahkan dengan method pre-train yaitu MobileNetV2 dan ResNet50
-
-MobileNetV2
 
 ![image](assets/mobilenetv2.png)
 
