@@ -43,12 +43,56 @@ Merescale nilai pixel citra agar berada dalam rentang 0 hingga 1.
 > **NOTE!** Dataset dapat dilihat pada [link berikut](https://drive.google.com/file/d/1X9jFokn9AXMMVTmlBQ7XZpBsLKVFnp-d/view?usp=drive_link) 
 
 
+## Model Machine Learning
+#### Deskripsi Arsitektur Model MobileNetv2
+MobileNetV2 adalah arsitektur neural network yang dirancang khusus untuk aplikasi mobile dan perangkat dengan sumber daya terbatas. Berikut adalah komponen-komponen utama dari model ini:
 
-![image](assets/mobilenetv2.png)
+##### MobileNetV2 Base Model
+1. Menggunakan arsitektur MobileNetV2 sebagai bagian dasar model.
+2. Arsitektur ini terkenal karena efisiensinya dalam mengekstraksi fitur dengan jumlah parameter yang lebih sedikit.
 
-ResNet50
+##### Transfer Learning
+1. Menggunakan bobot yang telah dilatih dari model MobileNetV2 pada dataset "imagenet".
+2. Proses transfer learning membantu model memahami fitur-fitur umum dari dataset "imagenet" dan meningkatkan kinerja pada tugas pengenalan gestur RPS.
 
-![image](assets/resnet.png)
+##### Fully Connected Layer
+1. Menambahkan lapisan-lapisan fully connected di bagian atas base model MobileNetV2.
+2. Lapisan ini bertujuan untuk mengkompres fitur yang diekstraksi agar sesuai dengan tugas pengenalan tangan dalam permainan RPS.
+
+##### Regularization
+1. Menggunakan dropout dengan tingkat dropout sebesar 20% untuk mencegah overfitting selama pelatihan.
+
+##### Softmax Activation
+1. Menggunakan fungsi aktivasi softmax pada lapisan output untuk menghasilkan distribusi probabilitas dari tiga kelas (kertas, batu, gunting).
+
+#### Keuntungan dan Kekurangan Arsitektur Model
+Keuntungan:
+1. Efisiensi dan Keringanan
+   MobileNetV2 dirancang khusus untuk aplikasi mobile dan perangkat dengan sumber daya terbatas, membuatnya cocok untuk implementasi di lingkungan terbatas.
+2. Kecepatan Inferensi Tinggi
+   Dikenal karena kecepatan inferensi yang tinggi, memungkinkan penggunaan model dalam aplikasi real-time.
+3. Transfer Learning
+   Mampu memanfaatkan transfer learning dari dataset "imagenet" untuk meningkatkan kemampuan model dalam mengenali fitur-fitur umum.
+   
+Kekurangan:
+1. Kurangnya Kompleksitas
+   Meskipun efisien, MobileNetV2 mungkin kurang kompleks dibandingkan dengan beberapa arsitektur lainnya, sehingga dapat memiliki keterbatasan dalam menangani dataset yang     sangat kompleks.
+2. Potensial Kehilangan Informasi
+   Proses transfer learning mungkin menyebabkan kehilangan informasi yang spesifik untuk tugas pengenalan tangan RPS, terutama jika dataset "imagenet" memiliki     
+   karakteristik yang sangat berbeda.
+3. Keterbatasan untuk Tugas Khusus
+   MobileNetV2 dirancang untuk tugas klasifikasi gambar umum, sehingga mungkin tidak seoptimal model yang dikhususkan untuk tugas pengenalan tangan RPS.
+
+#### Evaluasi Model
+Plotting : 
+![image](assets/plotting.png)
+
+Confusion Matrix :
+![image](assets/confusion.png)
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 **Akurasi** yang didapatkan dengan menggunakan model CNN adalah : **97.22%**
 
