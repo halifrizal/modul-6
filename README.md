@@ -19,8 +19,7 @@ Tensorflow-js, atau teknologi lainnya dapat disesuaikan dengan tingkat kemampuan
 5. Setelah model berhasil di-deploy dalam bentuk web dan berjalan dengan baik, peserta diminta untuk
 membuat repository GitHub. Selanjutnya, lakukan commit terhadap keseluruhan project, dan
 buatlah README.md yang memuat laporan hasil pengembangan proyek. Contoh README.md yang
-baik dapat dilihat pada [link berikut](https://github.com/muhfadh/Tugas_Praktikum_ML_A_297-
-233) 
+baik dapat dilihat pada [link berikut](https://github.com/muhfadh/Tugas_Praktikum_ML_A_297-233) 
 6. Setelah seluruh tahapan selesai, peserta diminta untuk mengumpulkan link GitHub beserta demo
 kepada asisten yang telah ditentukan.
 
