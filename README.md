@@ -4,7 +4,7 @@
 
 > **NOTE!** Project ini bertujuan untuk mengembangkan model machine learning untuk mengenali citra tangan dalam permainan batu-gunting-kertas (Rock-Paper-Scissors/RPS). Model ini dapat digunakan untuk membuat aplikasi atau game yang memanfaatkan pengenalan gestur tangan.
 
-### Ketentuan Project
+#### Ketentuan Project
 1. Peserta praktikum diminta untuk melakukan pengembangan AI Web Deployment berdasarkan
 modul sebelumnya. Jenis data yang dapat dipilih meliputi:
 a. Data Citra
@@ -22,6 +22,26 @@ buatlah README.md yang memuat laporan hasil pengembangan proyek. Contoh README.m
 baik dapat dilihat pada [link berikut](https://github.com/muhfadh/Tugas_Praktikum_ML_A_297-233) 
 6. Setelah seluruh tahapan selesai, peserta diminta untuk mengumpulkan link GitHub beserta demo
 kepada asisten yang telah ditentukan.
+
+
+## Dataset
+#### Pre-Processing dataset
+Pada tahap ini meliputi tahap-tahap berikut:
+1. Ekstraksi Dataset:
+Mengunduh dan mengekstrak dataset RPS dalam format zip.
+
+2. Pembagian Dataset:
+Memisahkan dataset menjadi set pelatihan, validasi, dan pengujian menggunakan proporsi 70:25:5.
+
+3. Augmentasi Data:
+Menggunakan augmentasi data pada set pelatihan untuk meningkatkan variasi dan mencegah overfitting.
+Augmentasi mencakup zoom range sebesar 20%, rotasi hingga 20 derajat, dan flip horizontal.
+
+4. Normalisasi Citra:
+Merescale nilai pixel citra agar berada dalam rentang 0 hingga 1.
+
+Link Dataset dapat dilihat pada [link berikut](https://drive.google.com/file/d/1X9jFokn9AXMMVTmlBQ7XZpBsLKVFnp-d/view?usp=drive_link) 
+
 
 
 ![image](assets/mobilenetv2.png)
